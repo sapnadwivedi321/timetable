@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+.triangle{
+    height:40;
+    width: 0px;
+   
+   border-left:100px solid  chartreuse;
+   border-right:100px solid  chartreuse;
+   border-bottom:100px solid red;
+    
+}
+.flex{display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+    gap: 5px;
+   
+}
+.tri2{
+   height:0px;
+   width: 0px;
+   border-left:100px solid blue;
+   border-right:100px solid blue;
+   border-top:100px solid brown;
+  
+}
+#sq{
+   height: 200px;
+   width: 200px;
+   background-color: antiquewhite;
+
+}
+   </style>
+</head>
+<body>
+   <div class="flex">
+   <div class="flex" id=" sq">
+      <div class="triangle flex"></div>
+      <div class="tri2 flex" > </div>
+   </div>
+</div>
+   </body>
+</html>
