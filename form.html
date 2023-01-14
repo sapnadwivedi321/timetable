@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   <h3>Column Layout</h3>
+   <p>choosing 2,3 column or side bar layout can be usefeul in situations where you have a large number of questions,allowing you to structure information more effeciently and design shorter forms.</p>
+   <h4>2 Column example</h4>
+   
+   <div class="flex" >
+    <div style="border: 1px solid grey;width: 50%;" >
+        <form style="margin: 10px;">
+   Output 1: <br>
+   <input type="text" value=""><br><br><br><br>
+   Output 2: <br>
+   <input type="text" value=""><br><br><br><br>
+   Output 3: <br>
+   <input type="text" value=""><br><br><br><br>
+   </form></div>
+  <div style="border: 1px solid grey;width: 50%;" >
+    <form style="margin: 10px;">
+        Measurmetnt 1: <br>
+        <input type="text" value=""><br><br><br><br>
+        Measurmetnt 2: <br>
+        <input type="text" value=""><br><br><br><br>
+        Measurmetnt 3: <br>
+        <input type="text" value=""><br><br><br><br>
+    </div>  
+ </form>
+</div>
+<h4>3 Column example</h4>
+<div  class="flex helo" > 
+     <div style="border: 1px solid gray;width: 32.7%; " >
+        <h4 >Project Approval Date</h4>
+        <input type="datetime-local" value=""><br><br><br><br>
+    </div>
+    <div style="border: 1px solid gray;width: 32.7%; ;">
+        <h4>Project Start Date</h4>
+        <input type="datetime-local" value=""><br><br><br><br>
+    </div>
+    <div style="border: 1px solid gray;width: 32.7%; ">
+        <h4>Project Completion Date</h4>
+        <input type="datetime-local" value=""><br><br><br><br>
+    </div>
+</div>
+<h4>Side bars</h4>
+<div class="flex ">
+    <div style="border: 1px solid gray;width: 70%;height: 50px;text-align: center; "  >You can have instructions here with a corresponding question in the next column.</div>
+    <div style="border: 1px solid gray;width: 30%; height: 50px;text-align: center;" >Budget $ <br>
+<input type="text">
+    </div> 
+</div>
+</body>
+</html>

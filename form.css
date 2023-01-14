@@ -1,0 +1,12 @@
+.flex{
+   padding:5px;
+   gap: 5px;
+   display: flex;
+   
+}
+.helo{
+  width: 100%;
+ 
+  text-align: center;
+height: 110px;
+}
